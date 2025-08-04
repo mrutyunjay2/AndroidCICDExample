@@ -47,6 +47,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun greet(name: String): String {
     return "Hello Commit to dev branch, $name!"
 }
+fun greet2(name: String): String {
+    return "How are you"
+}
 
 
 @Preview(showBackground = true)
