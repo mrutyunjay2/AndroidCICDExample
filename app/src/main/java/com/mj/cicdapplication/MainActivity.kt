@@ -44,6 +44,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     }
 }
 
+fun greet(name: String): String {
+    return "Hello Commit to dev branch, $name!"
+}
+
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
