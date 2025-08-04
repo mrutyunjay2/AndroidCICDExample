@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column {
         Text(
-            text = "Hello $name!",
+            text = "",
             modifier = modifier
         )
         Text(
@@ -46,6 +46,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 fun greet(name: String): String {
     return "Hello Commit to dev branch, $name!"
+}
+fun greet2(name: String): String {
+    return "How are you"
 }
 
 
